@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+
+		<script>
+
+			function insertName(){
+
+				let nameInput = document.getElementsByName("Name")[0];
+
+				let textDiv = document.createElement("div");
+
+				textDiv.innerHTML = "Welcome, " + nameInput.value;
+
+				document.body.appendChild(textDiv);
+
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+			Enter Name : <input type="text" name="Name" /> 
+
+			<br>
+		
+			<button onclick="insertName()" > Click </button>
+
+	</body>
+
+</html>
