@@ -1,0 +1,203 @@
+Date:10/Dec/2024
+----------------
+CSS
+---
+- CSS stands for Cascading Style Sheets
+- CSS describes how HTML elements are to be displayed on browser screen
+- CSS saves a lot of work
+
+	Ex:
+		<html>
+		   <head>
+			<style>
+			    p {
+				text-align : center;
+                              }
+		    	</style>
+		   </head>
+		   <body>
+			<p>I am paragraph1</p>
+			<p>I am paragraph2</p>
+		  	 ...
+		        <p>I am paragraph10</p>
+		   </body>
+		</html>
+
+	Refer program CSS1.html
+
+
+CSS Selectors
+-------------
+- element selector
+	- the styles are given to the specific HTML elements only
+		Ex:
+			p {
+				text-align : center;
+				color : green;
+                          }
+
+- id selector
+	- the id selector uses the id attribute of a HTML element to select a specific element
+		Refer program CSSId.html
+
+- class selector
+	- the class selector selects elements with a specific class attribute
+		Refer program CSSClass.html
+
+- group selector
+	Ex:
+		h3 {
+			text-align : center;
+			color : blue;
+		   }		   
+		h4 {
+			text-align : center;
+			color : blue;
+                   }
+		p  {
+			text-align : center;
+			color : blue;
+                   }
+
+		After grouping
+			h3,h4,p {
+					text-align : center;
+					color : blue;
+                                }
+- universal selector
+	* {
+		text-align : center;
+		color : red;
+		background-color : pink;
+          }
+
+
+Ways of Inserting CSS
+---------------------
+- Internal Style Sheets
+	- the styles are defined using <style> tag defined in <head> section
+	- the styles are used only within the same HTML file
+	- all above examples are internal
+	
+- Inline Style Sheets
+	- the styles are defined using "style" attribute along with the HTML element
+	- the styles are used only within the same HTML element
+		Refer program CSSInline.html
+
+- External Style Sheets
+	- the styles are defined in an external CSS file
+	- the styles are used in other HTML files
+	
+		Refer programs
+			- mystyle.css (external CSS file)
+			- externalCSS.html
+
+CSS Borders
+-----------
+border-style is used to specify the borders
+	- dotted
+	- dashed
+	- solid
+	- double
+	- none
+
+border width
+------------
+	border-width : 5px;
+	border-width: medium;
+	border-width : think;
+	border-width : thin;
+
+border colors
+-------------
+	border-color : green;
+	border-color : red;
+
+
+	Refer program CSSBorder.html
+
+CSS Margins and Padding
+-----------------------
+	Refer program CSSMargins.html
+
+
+Reference for Web Technologies
+-------------------------------
+www.w3schools.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

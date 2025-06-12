@@ -1,0 +1,11 @@
+body {
+    background-color: pink;
+}
+#id1 {
+    text-align: center;
+    color: red;
+}
+.right {
+    text-align: right;
+    color: blue;
+}
