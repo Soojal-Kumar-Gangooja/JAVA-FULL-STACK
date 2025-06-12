@@ -1,0 +1,165 @@
+Date:11/Dec/2024
+----------------
+JavaScript
+----------
+JavaScript is used to develop client side dynamic web pages
+
+Including JavaScript code in HTML
+---------------------------------
+<html>
+   <head>
+	<script>
+		JavaScript code
+	</script>
+   </head>
+   <body>
+	<script>
+		JavaScript code
+	</script>
+   </body>
+</html>
+
+JavaScript is object environment(predefined objects) scripting programming language
+
+
+document.write()
+---------------
+It is used to display messages or the value of variables or both onto the browser screen
+
+Ex:
+	document.write("Welcome to JavaScript");
+
+	Refer program JS1.html
+
+
+console.log()
+-------------
+It is used to display messages or the value of variables or both onto the console tab
+
+	Ex:
+		console.log("Function executed successfully");
+
+
+	Refer program JS2.html
+
+Datatypes
+----------
+JavaScript is dynamic typed scripting programming language
+
+Ex:
+	let n = 10;//n is number data type
+	n = "Raj";//n is string data type
+
+	let name = "Ramu";//name is string data type
+
+	let flag = true;//flag is boolean data type
+
+
+Java/C/C++/.NET are strongly typed programming languages
+
+Ex:
+	int n;
+	String name;
+	double salary;
+
+
+	Refer program JS3.html
+
+Dialog Boxes
+------------
+	Refer diagram Dialog.png
+
+	Refer program dialog.html
+
+
+WAP to accept length and breadth value from user using prompt() and find the area of the rectangle
+	Refer program Rectangle.html
+
+
+WAP to accept two numbers using prompt() and find the sum of these two numbers
+	Refer program sum.html
+
+
+
+Creating Functions
+------------------
+A function is a subprogram which is used to do a specific task
+
+function function-name(arguments)
+{
+   ...
+   ...
+}
+
+	Refer program FunEx.html
+
+	Refer program Factorial.html
+
+
+Create a HTML form which accepts the marks in three subjects. 
+Create a JavaScript function which finds the total marks
+
+	Refer program total.html
+
+External JavaScript
+-------------------
+External JavaScript code is used in other HTML files
+
+	Refer programs (for codes follow the recording)
+		- myscript.js (external JavaScript code)
+		- externalJS.html
+
+
+Document Object Model (DOM)
+---------------------------
+used to change the content of HTML elements
+It replaces the existing content of selected HTML element with the new content
+
+	Refer programs
+		- dom1.html
+		- dom2.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
